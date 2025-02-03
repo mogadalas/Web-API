@@ -1,0 +1,21 @@
+User Agent: A user agent is a request header. This will be like a confirmation that the browser will send.
+This also shows details of the client that started the request.
+
+Accept: Accept will also certain file types like HTML, text, or xml.
+This is under the category of request headers as well. There is Accept-Encoding, Accept-Charset, Accept-Language as well.
+Accept is a prefix header, languages can be accepted (Accept-Language) and characters (Accept-Charset).
+
+Vary: Vary will explain the specific sections of a request. This won't be information on URL that the client uses.
+This will be information based from Ads that users interact with by clicking.
+
+Cache-Control: Caches need to be updated by a response which is new most times.
+Content needs to be updated each time the page is refreshed. Caches are updated in real time by Cache Response.
+Cache Control will make sure that content is not outdated.
+Cache Control will also make sure that the server is the process of caches happening.
+
+Postman-Token: A Postman-Token is a set string of characters and numbers that are in any order.
+It is like a hash value that will verify requests to be accepted and ran in the API.
+This Postman-Token can be different for each account created who uses the Postman application.
+
+Host: This is the URL Link. The URL link is where the website would be located on the browser.
+The user can type in a exact link to the browser or they can type important key-words to access the link.

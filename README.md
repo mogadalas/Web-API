@@ -53,16 +53,4 @@ You will create a Postman collection and create a REST test within the project. 
 - -2 missing change in utils/googlebooks.js (adding new object)
 - -2 missing text file with request headers
 
-## Resources
-- Postman: https://www.getpostman.com/
-- Blog: http://blog.getpostman.com/2014/01/27/extracting-data-from-responses-and-chaining-requests/
-
-```
-var issues = JSON.parse(responseBody);  
-var closedState = postman.getEnvironmentVariable("closed_state");  
-var allIssuesAreClosed = issues.every(function(issue) {  
-  return issue.state === closedState;
-});
-tests["All issues are closed"] = allIssuesAreClosed;  
-```
-[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/35315-d80d079c-5158-4969-bf67-90dd80aa1dc4?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D35315-d80d079c-5158-4969-bf67-90dd80aa1dc4%26entityType%3Dcollection%26workspaceId%3D9537543c-3737-4557-a3ce-8c5ed9249378#?env%5Bmccarthy-hw0%5D=W3sia2V5IjoiYm9va19pZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSIsInNlc3Npb25WYWx1ZSI6IjRQWjZEQUFBUUJBSiIsImNvbXBsZXRlU2Vzc2lvblZhbHVlIjoiNFBaNkRBQUFRQkFKIiwic2Vzc2lvbkluZGV4IjowfV0=)
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/41727402-7995d8b1-96bb-40d3-85ec-79a305d1068d?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D41727402-7995d8b1-96bb-40d3-85ec-79a305d1068d%26entityType%3Dcollection%26workspaceId%3Dccec2f66-6e87-44b9-80db-e81df25f4fdc)
